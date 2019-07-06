@@ -4,7 +4,11 @@ import "./ImageForm.css";
 const ImageForm = ({ onInputChange, onButtonSubmit }) => {
   return (
     <div>
-      <p className="f3">{"Try put this fun face regnition app."}</p>
+      <p className="f3">
+        {
+          "Try put this fun face recognition app. Paste an URL below and click detect."
+        }
+      </p>
       <div className="center">
         <div className="form center pa4 br3 shadow-5">
           <input
