@@ -6,7 +6,7 @@ const ImageForm = ({ onInputChange, onButtonSubmit }) => {
     <div>
       <p className="f3">
         {
-          "Try put this fun face recognition app. Paste an URL below and click detect."
+          "Try out this fun face recognition app. Paste an URL below and click detect."
         }
       </p>
       <div className="center">
